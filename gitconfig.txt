@@ -1,0 +1,33 @@
+[core]
+  editor = /usr/bin/vim
+  pager = less -+$LESS -FRX
+[user]
+  name = may ang
+  email = mayday815@gmail.com
+[color]
+  ui = auto
+  interactive = auto
+[alias]
+  br = branch -v
+  ci = commit -v
+  co = checkout
+  dc = diff --word-diff=color --cached
+  df = diff --word-diff=color
+  fr = !git fetch && git rebase origin/master
+  fs = diff-tree --no-commit-id --name-only -r HEAD
+  gp = grep --break --heading
+  lg = log --graph --pretty=format:'%Cred%h%Creset %Cgreen%cr%Creset %Cblue%an%Creset%C(yellow)%d%Creset %s'
+  ls = log --stat
+  st = status -sb
+[grep]
+  lineNumber = true
+[filter "hawser"]
+clean = git hawser clean %f
+smudge = git hawser smudge %f
+required = true
+[filter "lfs"]
+clean = git-lfs clean -- %f
+smudge = git-lfs smudge -- %f
+process = git-lfs filter-process
+required = true
+

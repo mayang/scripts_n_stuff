@@ -1,0 +1,6 @@
+asdf - multilangague runtime version manager
+tldr - pretty main
+scc - # of codelines in a dir
+greynoise - threat intel
+trufflehog - find secret keys
+octosuit - osint framework
