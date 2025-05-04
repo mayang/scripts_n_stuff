@@ -1,9 +1,6 @@
 [core]
   editor = /usr/bin/vim
   pager = less -+$LESS -FRX
-[user]
-  name = may ang
-  email = mayday815@gmail.com
 [color]
   ui = auto
   interactive = auto

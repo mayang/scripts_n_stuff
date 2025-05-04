@@ -103,8 +103,11 @@ alias python="python3"
 alias pip="pip3"
 alias sshpihole="ssh pi@192.168.1.68"
 alias reloadzsh="source ~/.zshrc" 
-alias pyenv="source venv/bin/activate"
 alias grep="grep -i -n --color=auto"
+alias tshark="tshark --color"
+alias myip="ipconfig getifaddr en0"
+alias cat="bat"
+alias ghosttyconfig="vim ~/Library/Application\ Support/com.mitchellh.ghostty/config"
  
 auto-ls () {
   emulate -L zsh;
@@ -113,6 +116,6 @@ auto-ls () {
 }
 chpwd_functions=( auto-ls $chpwd_functions )
 
-plugins=(asdf)
 
 source /Users/may/.docker/init-zsh.sh || true # Added by Docker Desktop
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
