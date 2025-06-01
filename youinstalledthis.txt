@@ -1,13 +1,13 @@
-asdf - multilangague runtime version manager
 tldr - pretty man
 scc - # of codelines in a dir
-greynoise - threat intel
 trufflehog - find secret keys
-octosuit - osint framework
+octosuit - osint framework (pip)
 httpie - http and api testing cli
 semgrep - static analysis
 bat - better cat
-git-dumper- dump git repot from a webstie
+git-dumper- dump git repot from a webstie (pip)
 procs - ps with color and structure
 ipsw - https://github.com/blacktop/ipsw
 yt-dlp - download youtube
+feroxbuster - find publicly available resources on a website - https://github.com/epi052/feroxbuster
+fx - json viewer & processor - https://fx.wtf/
